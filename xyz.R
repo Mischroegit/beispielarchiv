@@ -4,6 +4,7 @@ xyz<-function(g,z)
 		i<-g+z-4;
 		return(list(h=h,i=i));
 		print("hamburg");
+		print("lübeck");
 		print("hannover");
 	}
 
