@@ -1,6 +1,7 @@
 abc<-function(p,q)
 	{
-		h<-p*q^23;
-		i<-p/q -q-27;
-		return(list(h=h,i=i));
+		h<-p*q;
+		i<-p/q -4000*q;
+		hi<-h*i;
+		return(list(h=h,i=i,hi=hi));
 	}
